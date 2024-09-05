@@ -1,0 +1,155 @@
+    <!DOCTYPE html> 
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Shoe blog</title>
+        <link rel="stylesheet" href="style.css" >
+
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="topBaseDesign"></div>
+            <div class="topDescription"> 
+            <h1 class="toptext"> Cool Nike Shoes</h1>
+            </div>
+
+            <div class="gridcontainer">
+                <div class="Imagepreview">
+                    <img class=" Image" src=" Shoe images - Copy/Blue Black Mid Custom Air Force 1 - US 5_5 Y_ US 7 W_ UK 5_ EU 38.jpg" />
+                    <button class="Likebutton" onclick=" Liked(this, 1);"> Like </button>
+                    <div class=" ImageDescription">
+                        <p class=" Textstyle"> Black Mid Custom Air Force.</p>
+
+                    </div>
+                </div>
+
+                <div class="Imagepreview">
+                    <img class=" Image" src=" Shoe images - Copy/Dripping Blue Custom Air Force 1 Sneakers with Butterflies_ Low, Mid & High top  _ eBay.jpg" />
+                    <button class="Likebutton" onclick=" Liked(this, 1);"> Like </button>
+                    <div class=" ImageDescription">
+                        <p class=" Textstyle"> Dripping Blue Custom Air Force.</p>
+                        
+                    </div>
+                </div>
+
+                <div class="Imagepreview">
+                    <img class=" Image" src=" Shoe images - Copy/Drippy Custom Air force one 1 reflective glow in the dark Neon women's shoes.jpg" />
+                    <button class="Likebutton" onclick=" Liked(this, 2);"> Like </button>
+                    <div class=" ImageDescription">
+                        <p class=" Textstyle"> Drippy  Air force reflective glow in the dark Neon.</p>
+                        
+                    </div>
+                </div>
+
+                <div class="Imagepreview">
+                    <img class=" Image" src=" Shoe images - Copy/Iridescent 3M Reflective Flat Laces for Air AJ Jordan Max Force 1 Rainbow Fearless 1 Rainbow - Etsy.jpg" />
+                    <button class="Likebutton" onclick=" Liked(this, 3);"> Like </button>
+                    <div class=" ImageDescription">
+                        <p class=" Textstyle"> 3M Reflective Flat Laces for Air AJ Jordan Max Force.</p>
+                       
+                    </div>
+                </div>
+
+                <div class="Imagepreview">
+                    <img class=" Image" src=" Shoe images - Copy/Jordan Shoes _ Air Jordan Retro Hi 1 Og Gs Black_Gym Red_White Size 7 _ Color_ Black_Red _ Size_ 7bb.jpg" />
+                    <button class="Likebutton" onclick=" Liked(this, 4);"> Like </button>
+                    <div class=" ImageDescription">
+                        <p class=" Textstyle"> Jordan Shoes _ Air Jordan Retro.</p>
+                        
+                    </div>
+                </div>
+
+                <div class="Imagepreview">
+                    <img class=" Image" src=" Shoe images - Copy/Mint Green Custom Air Force 1 - Custom Shoes.jpg" />
+                    <button class="Likebutton" onclick=" Liked(this, 4);"> Like </button>
+                    <div class=" ImageDescription">
+                        <p class=" Textstyle"> Mint Green Custom Air Force.</p>
+                        
+                    </div>
+                </div>
+
+                <div class="Imagepreview">
+                    <img class=" Image" src=" Shoe images - Copy/Tênis Nike Air force customizado.jpg" />
+                    <button class="Likebutton" onclick=" Liked(this, 6);"> Like </button>
+                    <div class=" ImageDescription">
+                        <p class=" Textstyle"> Nike Dunk Low GS.</p>
+                       
+                    </div>
+                </div>
+
+
+                <div class="Imagepreview">
+                    <img class=" Image" src=" Shoe images - Copy/Denver_chicago Team Jordan 1 - Etsy.jpg" />
+                    <button class="Likebutton" onclick=" Liked(this, 8);"> Like </button>
+                    <div class=" ImageDescription">
+                        <p class=" Textstyle"> Denver_chicago Team Jordan.</p>
+
+                    </div>
+                </div>
+
+                <div class="Imagepreview">
+                    <img class=" Image" src=" Shoe images - Copy/CUSTOM Drip Nike Air Force Ones.jpg" />
+                    <button class="Likebutton" onclick=" Liked(this, 8);"> Like </button>
+                    <div class=" ImageDescription">
+                        <p class=" Textstyle"> Drip Nike Air Force.</p>
+                        
+                    </div>
+                </div>
+
+
+
+            </div>
+      
+            <div class="bottomBaseDesign">
+                <div class="bottomText">
+                    <h3 class=" textwhite"> Website by Bona-tech.</h3>
+                    <div style=" display: inline-block; margin-left: 10px;" class=" contacttext">
+                        <h3 class=" textwhite">  Contact us via:</h3>
+                    </div>
+
+                    <div class="contactImage">
+                            <img src=" web_contact logos - Copy/whatsapp logo.png" />
+
+                        </div>
+
+
+
+                </div>
+                </div>
+
+                
+
+            </div>
+
+      <script>
+
+          const likeButton = document.querySelectorAll('.Likebutton');
+          console.log(likeButton);
+    
+     
+          function Liked(button, number) {
+
+
+              if (button.innerText === 'Like') {
+                  button.innerText = 'Liked';
+                  likeButton.classList.add('.Liked');
+                  
+
+              } else {
+                  button.innerText = 'Like';
+                  
+
+              }
+
+              }
+
+             
+      
+          
+
+      </script>
+
+    </body>
+    </html>
